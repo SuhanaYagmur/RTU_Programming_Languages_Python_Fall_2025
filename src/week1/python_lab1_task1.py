@@ -6,7 +6,6 @@ def circle_area(radius):
     return math.pi * (radius ** 2)
 
 if __name__ == "__main__":
-    # Marjinal (uç) test değerleri
     test_values = [0, 0.0001, 1, 999999, -5, random.uniform(-1000, 1000)]
 
     for r in test_values:
